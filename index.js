@@ -18,6 +18,7 @@ const replicate = new Replicate({
 });
 
 app.use(express.json());
+app.use(cors());
 
 app.post("/generate-video", async (req, res) => {
   try {
