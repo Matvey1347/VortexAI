@@ -30,6 +30,8 @@ app.post("/generate-video", async (req, res) => {
       prompt_optimizer: true,
     };
 
+    console.log("input", input);
+
     console.log("Запуск генерации видео...");
 
     // Запуск модели
