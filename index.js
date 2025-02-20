@@ -2,6 +2,7 @@ import express from "express";
 import Replicate from "replicate";
 import dotenv from "dotenv";
 import axios from "axios";
+import cors from "cors";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
