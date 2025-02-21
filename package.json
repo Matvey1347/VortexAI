@@ -16,6 +16,7 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "fs": "^0.0.1-security",
+    "p-queue": "^8.1.0",
     "path": "^0.12.7",
     "replicate": "^1.0.1"
   }
